@@ -1,2 +1,6 @@
 appsettings.json
 bin/
+obj/
+obj/Debug/
+.vscode/
+TestApp/

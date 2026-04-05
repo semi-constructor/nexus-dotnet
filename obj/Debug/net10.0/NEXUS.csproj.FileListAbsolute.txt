@@ -49,3 +49,4 @@ C:\Users\toowa\OneDrive\Desktop\Projects\NEXUS\obj\Debug\net10.0\refint\NEXUS.dl
 C:\Users\toowa\OneDrive\Desktop\Projects\NEXUS\obj\Debug\net10.0\NEXUS.pdb
 C:\Users\toowa\OneDrive\Desktop\Projects\NEXUS\obj\Debug\net10.0\NEXUS.genruntimeconfig.cache
 C:\Users\toowa\OneDrive\Desktop\Projects\NEXUS\obj\Debug\net10.0\ref\NEXUS.dll
+C:\Users\toowa\OneDrive\Desktop\Projects\NEXUS\obj\Debug\net10.0\NEXUS.sourcelink.json

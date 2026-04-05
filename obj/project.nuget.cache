@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/KR3gTIl9Hw=",
+  "dgSpecHash": "aZ8dWzAZCGo=",
   "success": true,
   "projectFilePath": "C:\\Users\\toowa\\OneDrive\\Desktop\\Projects\\NEXUS\\NEXUS.csproj",
   "expectedPackageFiles": [
@@ -32,12 +32,15 @@
     "C:\\Users\\toowa\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.5\\microsoft.extensions.options.configurationextensions.10.0.5.nupkg.sha512",
     "C:\\Users\\toowa\\.nuget\\packages\\microsoft.extensions.options.dataannotations\\10.0.3\\microsoft.extensions.options.dataannotations.10.0.3.nupkg.sha512",
     "C:\\Users\\toowa\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.5\\microsoft.extensions.primitives.10.0.5.nupkg.sha512",
-    "C:\\Users\\toowa\\.nuget\\packages\\netcord\\1.0.0-alpha.479\\netcord.1.0.0-alpha.479.nupkg.sha512",
-    "C:\\Users\\toowa\\.nuget\\packages\\netcord.hosting\\1.0.0-alpha.479\\netcord.hosting.1.0.0-alpha.479.nupkg.sha512",
-    "C:\\Users\\toowa\\.nuget\\packages\\netcord.hosting.services\\1.0.0-alpha.479\\netcord.hosting.services.1.0.0-alpha.479.nupkg.sha512",
-    "C:\\Users\\toowa\\.nuget\\packages\\netcord.services\\1.0.0-alpha.479\\netcord.services.1.0.0-alpha.479.nupkg.sha512",
+    "C:\\Users\\toowa\\.nuget\\packages\\netcord\\1.0.0-alpha.480\\netcord.1.0.0-alpha.480.nupkg.sha512",
+    "C:\\Users\\toowa\\.nuget\\packages\\netcord.hosting\\1.0.0-alpha.480\\netcord.hosting.1.0.0-alpha.480.nupkg.sha512",
+    "C:\\Users\\toowa\\.nuget\\packages\\netcord.hosting.aspnetcore\\1.0.0-alpha.480\\netcord.hosting.aspnetcore.1.0.0-alpha.480.nupkg.sha512",
+    "C:\\Users\\toowa\\.nuget\\packages\\netcord.hosting.services\\1.0.0-alpha.480\\netcord.hosting.services.1.0.0-alpha.480.nupkg.sha512",
+    "C:\\Users\\toowa\\.nuget\\packages\\netcord.services\\1.0.0-alpha.480\\netcord.services.1.0.0-alpha.480.nupkg.sha512",
     "C:\\Users\\toowa\\.nuget\\packages\\npgsql\\10.0.2\\npgsql.10.0.2.nupkg.sha512",
-    "C:\\Users\\toowa\\.nuget\\packages\\system.diagnostics.eventlog\\10.0.5\\system.diagnostics.eventlog.10.0.5.nupkg.sha512"
+    "C:\\Users\\toowa\\.nuget\\packages\\system.codedom\\10.0.5\\system.codedom.10.0.5.nupkg.sha512",
+    "C:\\Users\\toowa\\.nuget\\packages\\system.diagnostics.eventlog\\10.0.5\\system.diagnostics.eventlog.10.0.5.nupkg.sha512",
+    "C:\\Users\\toowa\\.nuget\\packages\\system.management\\10.0.5\\system.management.10.0.5.nupkg.sha512"
   ],
   "logs": []
 }

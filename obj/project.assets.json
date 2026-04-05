@@ -599,7 +599,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "NetCord/1.0.0-alpha.479": {
+      "NetCord/1.0.0-alpha.480": {
         "type": "package",
         "compile": {
           "lib/net10.0/NetCord.dll": {
@@ -612,14 +612,14 @@
           }
         }
       },
-      "NetCord.Hosting/1.0.0-alpha.479": {
+      "NetCord.Hosting/1.0.0-alpha.480": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "10.0.3",
           "Microsoft.Extensions.Hosting.Abstractions": "10.0.3",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "10.0.3",
           "Microsoft.Extensions.Options.DataAnnotations": "10.0.3",
-          "NetCord": "1.0.0-alpha.479"
+          "NetCord": "1.0.0-alpha.480"
         },
         "compile": {
           "lib/net10.0/NetCord.Hosting.dll": {
@@ -632,15 +632,34 @@
           }
         }
       },
-      "NetCord.Hosting.Services/1.0.0-alpha.479": {
+      "NetCord.Hosting.AspNetCore/1.0.0-alpha.480": {
+        "type": "package",
+        "dependencies": {
+          "NetCord.Hosting": "1.0.0-alpha.480"
+        },
+        "compile": {
+          "lib/net10.0/NetCord.Hosting.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/NetCord.Hosting.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "NetCord.Hosting.Services/1.0.0-alpha.480": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "10.0.3",
           "Microsoft.Extensions.Hosting.Abstractions": "10.0.3",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "10.0.3",
           "Microsoft.Extensions.Options.DataAnnotations": "10.0.3",
-          "NetCord.Hosting": "1.0.0-alpha.479",
-          "NetCord.Services": "1.0.0-alpha.479"
+          "NetCord.Hosting": "1.0.0-alpha.480",
+          "NetCord.Services": "1.0.0-alpha.480"
         },
         "compile": {
           "lib/net10.0/NetCord.Hosting.Services.dll": {
@@ -653,10 +672,10 @@
           }
         }
       },
-      "NetCord.Services/1.0.0-alpha.479": {
+      "NetCord.Services/1.0.0-alpha.480": {
         "type": "package",
         "dependencies": {
-          "NetCord": "1.0.0-alpha.479"
+          "NetCord": "1.0.0-alpha.480"
         },
         "compile": {
           "lib/net10.0/NetCord.Services.dll": {
@@ -685,6 +704,22 @@
           }
         }
       },
+      "System.CodeDom/10.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "System.Diagnostics.EventLog/10.0.5": {
         "type": "package",
         "compile": {
@@ -706,6 +741,31 @@
             "rid": "win"
           },
           "runtimes/win/lib/net10.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Management/10.0.5": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "10.0.5"
+        },
+        "compile": {
+          "lib/net10.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Management.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1610,10 +1670,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "NetCord/1.0.0-alpha.479": {
-      "sha512": "htqCn/epI3x7hoFDgPTyEH17At36QtUuln11TRSyfE9fVlPJAwWCC4gnaZM4VB8g7UGgdmr04yXz5J5pG4EMkQ==",
+    "NetCord/1.0.0-alpha.480": {
+      "sha512": "UM7G30nsCUT3zraW1PGDJtDbVGT1GNaV8MnTiD0FRzX2Bfz40Fj/jVgG60e7qbD/gUWEOJLZ0TG5HpEYnt6r8g==",
       "type": "package",
-      "path": "netcord/1.0.0-alpha.479",
+      "path": "netcord/1.0.0-alpha.480",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1621,14 +1681,14 @@
         "README.md",
         "lib/net10.0/NetCord.dll",
         "lib/net10.0/NetCord.xml",
-        "netcord.1.0.0-alpha.479.nupkg.sha512",
+        "netcord.1.0.0-alpha.480.nupkg.sha512",
         "netcord.nuspec"
       ]
     },
-    "NetCord.Hosting/1.0.0-alpha.479": {
-      "sha512": "rDg76U3VkTHHOPKX8abLcVgvwl5VopriNlBKtV+6fm5jslmNbyS7HbGHe56e4B3IQ2b4v7p3r+MyHW0rMhiqVw==",
+    "NetCord.Hosting/1.0.0-alpha.480": {
+      "sha512": "3I2Teo86ngY6Fps+tzoBvCP8g5nzi1lC3cpp1KzTe8uMEVOK7zsgSWq0gn+YmcTl/Mqc/YEyf2MC9nmF6D+PSg==",
       "type": "package",
-      "path": "netcord.hosting/1.0.0-alpha.479",
+      "path": "netcord.hosting/1.0.0-alpha.480",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1636,14 +1696,29 @@
         "README.md",
         "lib/net10.0/NetCord.Hosting.dll",
         "lib/net10.0/NetCord.Hosting.xml",
-        "netcord.hosting.1.0.0-alpha.479.nupkg.sha512",
+        "netcord.hosting.1.0.0-alpha.480.nupkg.sha512",
         "netcord.hosting.nuspec"
       ]
     },
-    "NetCord.Hosting.Services/1.0.0-alpha.479": {
-      "sha512": "/xJb5BqGWlHajb/eLx9jpzuHLhS7JYc6+AVzGiRD83f7lEecHJw373zpPL+iWNxR7CZg/pC210Gx2TmP5YJRrQ==",
+    "NetCord.Hosting.AspNetCore/1.0.0-alpha.480": {
+      "sha512": "iBBeqonABxpxFsXtdpFm7wsUxOCV3/mH6lL3FrnkT+M1752DFD3pNufaK2ZLaFr9VrY49M8FKYBfANGfJnSJsw==",
       "type": "package",
-      "path": "netcord.hosting.services/1.0.0-alpha.479",
+      "path": "netcord.hosting.aspnetcore/1.0.0-alpha.480",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ICON.png",
+        "README.md",
+        "lib/net10.0/NetCord.Hosting.AspNetCore.dll",
+        "lib/net10.0/NetCord.Hosting.AspNetCore.xml",
+        "netcord.hosting.aspnetcore.1.0.0-alpha.480.nupkg.sha512",
+        "netcord.hosting.aspnetcore.nuspec"
+      ]
+    },
+    "NetCord.Hosting.Services/1.0.0-alpha.480": {
+      "sha512": "wbm8j1IDhr+URDK1tXk32z8Fgjsp1SaxilipUETD7cj3nz54yXwCgZPgZpcj/rGWWw005qAND4yjR4MH8LuObw==",
+      "type": "package",
+      "path": "netcord.hosting.services/1.0.0-alpha.480",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1651,14 +1726,14 @@
         "README.md",
         "lib/net10.0/NetCord.Hosting.Services.dll",
         "lib/net10.0/NetCord.Hosting.Services.xml",
-        "netcord.hosting.services.1.0.0-alpha.479.nupkg.sha512",
+        "netcord.hosting.services.1.0.0-alpha.480.nupkg.sha512",
         "netcord.hosting.services.nuspec"
       ]
     },
-    "NetCord.Services/1.0.0-alpha.479": {
-      "sha512": "zCFdHI149aXo37flw0GPBURqdPmsKodCi+RG9wbL0aD7iakuww5b1N/FIup2ygjJucew3vyLadsyabSeWXkpuA==",
+    "NetCord.Services/1.0.0-alpha.480": {
+      "sha512": "xQbuLASSEEq7wRZHrE8/wO92KyRADSy0iwrPD5tHhnYzJk7m4ZH7S8JHPpDG0e6EF19T+DwuCcgWyg9J756X1w==",
       "type": "package",
-      "path": "netcord.services/1.0.0-alpha.479",
+      "path": "netcord.services/1.0.0-alpha.480",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1666,7 +1741,7 @@
         "README.md",
         "lib/net10.0/NetCord.Services.dll",
         "lib/net10.0/NetCord.Services.xml",
-        "netcord.services.1.0.0-alpha.479.nupkg.sha512",
+        "netcord.services.1.0.0-alpha.480.nupkg.sha512",
         "netcord.services.nuspec"
       ]
     },
@@ -1687,6 +1762,35 @@
         "npgsql.10.0.2.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
+      ]
+    },
+    "System.CodeDom/10.0.5": {
+      "sha512": "hGZWDDJh1U6t7fy3iO4HlZYK1ur1fWE3sTqTNHkHk0Leh0JUcxYM//JtLBNG5g+6D2Lt0+aHH8rc7e5oIlNgCg==",
+      "type": "package",
+      "path": "system.codedom/10.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.CodeDom.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "lib/net10.0/System.CodeDom.dll",
+        "lib/net10.0/System.CodeDom.xml",
+        "lib/net462/System.CodeDom.dll",
+        "lib/net462/System.CodeDom.xml",
+        "lib/net8.0/System.CodeDom.dll",
+        "lib/net8.0/System.CodeDom.xml",
+        "lib/net9.0/System.CodeDom.dll",
+        "lib/net9.0/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.10.0.5.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Diagnostics.EventLog/10.0.5": {
@@ -1726,16 +1830,50 @@
         "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "System.Management/10.0.5": {
+      "sha512": "JhBVxvWhUJ0KAquUK0dMnc3a1Ol4JyH8fMrMQZ9GgEUkrtvPy8DE57SDnGnuvOdI0maJOdguxw87N5bh2eL87A==",
+      "type": "package",
+      "path": "system.management/10.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Management.targets",
+        "lib/net10.0/System.Management.dll",
+        "lib/net10.0/System.Management.xml",
+        "lib/net462/_._",
+        "lib/net8.0/System.Management.dll",
+        "lib/net8.0/System.Management.xml",
+        "lib/net9.0/System.Management.dll",
+        "lib/net9.0/System.Management.xml",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net10.0/System.Management.dll",
+        "runtimes/win/lib/net10.0/System.Management.xml",
+        "runtimes/win/lib/net8.0/System.Management.dll",
+        "runtimes/win/lib/net8.0/System.Management.xml",
+        "runtimes/win/lib/net9.0/System.Management.dll",
+        "runtimes/win/lib/net9.0/System.Management.xml",
+        "system.management.10.0.5.nupkg.sha512",
+        "system.management.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.Extensions.Hosting >= 10.0.5",
-      "NetCord >= 1.0.0-alpha.479",
-      "NetCord.Hosting >= 1.0.0-alpha.479",
-      "NetCord.Hosting.Services >= 1.0.0-alpha.479",
-      "NetCord.Services >= 1.0.0-alpha.479",
-      "Npgsql >= 10.0.2"
+      "NetCord >= 1.0.0-alpha.480",
+      "NetCord.Hosting >= 1.0.0-alpha.480",
+      "NetCord.Hosting.AspNetCore >= 1.0.0-alpha.480",
+      "NetCord.Hosting.Services >= 1.0.0-alpha.480",
+      "NetCord.Services >= 1.0.0-alpha.480",
+      "Npgsql >= 10.0.2",
+      "System.Management >= 10.0.5"
     ]
   },
   "packageFolders": {
@@ -1787,23 +1925,31 @@
           },
           "NetCord": {
             "target": "Package",
-            "version": "[1.0.0-alpha.479, )"
+            "version": "[1.0.0-alpha.480, )"
           },
           "NetCord.Hosting": {
             "target": "Package",
-            "version": "[1.0.0-alpha.479, )"
+            "version": "[1.0.0-alpha.480, )"
+          },
+          "NetCord.Hosting.AspNetCore": {
+            "target": "Package",
+            "version": "[1.0.0-alpha.480, )"
           },
           "NetCord.Hosting.Services": {
             "target": "Package",
-            "version": "[1.0.0-alpha.479, )"
+            "version": "[1.0.0-alpha.480, )"
           },
           "NetCord.Services": {
             "target": "Package",
-            "version": "[1.0.0-alpha.479, )"
+            "version": "[1.0.0-alpha.480, )"
           },
           "Npgsql": {
             "target": "Package",
             "version": "[10.0.2, )"
+          },
+          "System.Management": {
+            "target": "Package",
+            "version": "[10.0.5, )"
           }
         },
         "imports": [

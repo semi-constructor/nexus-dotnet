@@ -50,23 +50,31 @@
             },
             "NetCord": {
               "target": "Package",
-              "version": "[1.0.0-alpha.479, )"
+              "version": "[1.0.0-alpha.480, )"
             },
             "NetCord.Hosting": {
               "target": "Package",
-              "version": "[1.0.0-alpha.479, )"
+              "version": "[1.0.0-alpha.480, )"
+            },
+            "NetCord.Hosting.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0-alpha.480, )"
             },
             "NetCord.Hosting.Services": {
               "target": "Package",
-              "version": "[1.0.0-alpha.479, )"
+              "version": "[1.0.0-alpha.480, )"
             },
             "NetCord.Services": {
               "target": "Package",
-              "version": "[1.0.0-alpha.479, )"
+              "version": "[1.0.0-alpha.480, )"
             },
             "Npgsql": {
               "target": "Package",
               "version": "[10.0.2, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[10.0.5, )"
             }
           },
           "imports": [
